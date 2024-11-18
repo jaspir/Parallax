@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    text-shadow: 1px 1px 2px black ;
+}
+
+.parallax {
+    background-image: url(image/Product\ \(2\).png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    background-color: rgb(255, 203, 148);
+ 
+}
+
+.whitebg {
+    background-color: rgb(255, 203, 148);
+
+}
+
+.TEXT1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.TEXT2 {
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.parallax2 {
+    background-image: url(image/2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    background-color: rgb(255, 203, 148);
+ 
+}
+
+.parallax3 {
+    background-image: url(image/3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    background-color: rgb(255, 203, 148);
+}
+
+.container {
+    background: radial-gradient(circle, rgba(255,234,197,1) 0%, rgb(255, 203, 148) 100%);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.mainheader {
+    width: 100%;
+    background: radial-gradient(circle, rgba(233,238,217,1) 0%, rgba(203,210,164,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position:fixed;
+    padding: 20px;
+}
+
+.nav-container {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav-container li {
+    margin-right: 15px; 
+}
+
+.nav-container li a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px;
+}
